@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Producción y Cultivos — Vivero Vía Verde (Matheu & Zelaya · Pilar del Este)</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo-real.png">
+
+    <!-- Open Graph / WhatsApp Preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://viveroviaverde.com.ar/produccion.html">
+    <meta property="og:title" content="Producción Propia de Plantas y Especies — Vivero Vía Verde">
+    <meta property="og:description" content="Conocé por dentro nuestras 5 naves de cultivo en Calle Nazarre (entre Matheu y Zelaya). Reproducción desde esqueje de arbustos para cercos vivos, gramíneas, floración, interior y suculentas.">
+    <meta property="og:image" content="images/logo-real.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css?v=2">
+</head>
+<body>
+
+    <!-- ======================================================================
+         NAVEGACIÓN PRINCIPAL CENTRADA Y LIMPIA
+         ====================================================================== -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo-real.png?v=2" alt="Vivero Vía Verde">
+            </a>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li>
+                <a href="index.html" class="nav-link-reveal" data-text="Inicio">
+                    <span>Inicio</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html#servicios" class="nav-link-reveal" data-text="Servicios">
+                    <span>Servicios</span>
+                </a>
+            </li>
+            <li>
+                <a href="produccion.html" class="nav-link-reveal active" data-text="Producción">
+                    <span>Producción</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html#cotizador" class="nav-link-reveal" data-text="Cercos Vivos">
+                    <span>Cercos Vivos</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html#opiniones" class="nav-link-reveal" data-text="Clientes">
+                    <span>Clientes</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html#contacto" class="nav-link-reveal" data-text="Ubicación">
+                    <span>Ubicación</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="nav-actions">
+            <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Estoy%20en%20la%20p%C3%A1gina%20de%20Producci%C3%B3n%20y%20quisiera%20consultar%20stock" class="btn-nav-cta" target="_blank">
+                <i class="fab fa-whatsapp" style="font-size: 1.15rem;"></i>
+                <span>Consultar Stock</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ======================================================================
+         HERO DE PÁGINA DE PRODUCCIÓN
+         ====================================================================== -->
+    <header class="prod-page-hero">
+        <div class="prod-hero-inner">
+            <div class="reveal-left">
+                <div class="prod-breadcrumb">
+                    <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+                    <span>/</span>
+                    <span>Nuestra Producción</span>
+                </div>
+
+                <h1 class="hero-title" style="margin-bottom: 1.1rem;">
+                    DEL ESQUEJE AL<br>
+                    <span class="highlight-leaf">Ejemplar Terminado.</span>
+                </h1>
+
+                <p style="font-size: 1.04rem; color: var(--text-body); line-height: 1.7; margin-bottom: 1.6rem; max-width: 590px;">
+                    En <strong>Vivero Vía Verde</strong> no solo comercializamos plantas: somos productores. En nuestras <strong>5 naves de invernadero</strong> seleccionamos las plantas madre, preparamos los esquejes a diario y criamos cada línea con el clima y el agua de la zona para garantizar un arraigo superior cuando las trasplantás a tu jardín o lote.
+                </p>
+
+                <div class="hero-cta-row" style="margin-top: 0;">
+                    <a href="#especies" class="btn-kinetic-primary">
+                        <i class="fas fa-leaf"></i>
+                        <span>Explorar Catálogo en Producción</span>
+                    </a>
+                    <a href="#proceso" class="btn-kinetic-outline">
+                        <i class="fas fa-Microscope" style="color: var(--primary-strong);"></i>
+                        <span>Cómo Cultivamos</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Grilla de 4 Indicadores Reales de Producción -->
+            <div class="prod-kpi-grid reveal-right">
+                <div class="prod-kpi-card">
+                    <div class="prod-kpi-icon"><i class="fas fa-warehouse"></i></div>
+                    <strong>5 Naves</strong>
+                    <span>Invernaderos Propios</span>
+                    <small>Cultivo bajo cubierta y canchas de aclimatación a cielo abierto en Calle Nazarre.</small>
+                </div>
+
+                <div class="prod-kpi-card">
+                    <div class="prod-kpi-icon"><i class="fas fa-hand-holding-seedling"></i></div>
+                    <strong>100%</strong>
+                    <span>Desde el Esqueje</span>
+                    <small>Reproducción diaria en mesada con control radicular y sanidad libre de plagas.</small>
+                </div>
+
+                <div class="prod-kpi-card">
+                    <div class="prod-kpi-icon"><i class="fas fa-temperature-half"></i></div>
+                    <strong>Zona Norte</strong>
+                    <span>Plantas Aclimatadas</span>
+                    <small>Criadas con el mismo régimen de sol y heladas de Pilar del Este, San Sebastián y Escobar.</small>
+                </div>
+
+                <div class="prod-kpi-card">
+                    <div class="prod-kpi-icon"><i class="fas fa-boxes-stacked"></i></div>
+                    <strong>Directo</strong>
+                    <span>Mayorista &amp; Minorista</span>
+                    <small>Abastecemos familias, lotes en obra, paisajistas, jardineros y viveros de la región.</small>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ======================================================================
+         BLOQUES EDITORIALES DE VALOR PRODUCTIVO
+         ====================================================================== -->
+    <section class="editorial-blocks-row">
+        <!-- Bloque 1: Ventaja de Vivero Productor -->
+        <div class="ed-block ed-block-moss reveal-up">
+            <div>
+                <div class="ed-block-tag"><i class="fas fa-leaf"></i> Vivero Vía Verde · Producción Propia desde Esqueje</div>
+                <h3>PLANTAS SANAS Y VIGOROSAS CRIADAS EN NUESTRAS PROPIAS NAVES</h3>
+                <p>Cuando comprás directo en un vivero productor, la planta no sufre estrés de transporte ni cambios bruscos de ambiente. En nuestro predio de Calle Nazarre cuidamos el sustrato, la poda de formación y la raíz de cada envase.</p>
+            </div>
+            <div class="ed-stats-mini">
+                <div class="ed-stat-item">
+                    <strong>100%</strong>
+                    <span>Cultivo &amp; Sanidad</span>
+                </div>
+                <div class="ed-stat-item">
+                    <strong>5 Naves</strong>
+                    <span>Producción Propia</span>
+                </div>
+                <div class="ed-stat-item">
+                    <strong>5.0★</strong>
+                    <span>Calificación Google</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloque 2: Enfoque Estratégico Zelaya, Pilar del Este, San Sebastián y Matheu -->
+        <div class="ed-block ed-block-linen reveal-up" style="transition-delay: 0.12s;">
+            <div>
+                <div class="ed-block-tag"><i class="fas fa-compass" style="color: var(--terra);"></i> Punto Estratégico · Matheu &amp; Zelaya</div>
+                <h3>PRODUCCIÓN PENSADA PARA BARRIOS DE PILAR DEL ESTE, SAN SEBASTIÁN Y MATHEU</h3>
+                <p>Producimos en volumen las especies que mejor funcionan en los suelos de <strong>Pilar del Este, San Sebastián, Zelaya y Matheu</strong>: arbustos perennes para cierres perimetrales, gramíneas rústicas, trepadoras en flor y tropicales de galería.</p>
+            </div>
+            <a href="index.html#cotizador" class="ed-link-underline">
+                <span>Usar la Calculadora de Plantas para Cerco Vivo</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ======================================================================
+         LAS 4 ETAPAS DE NUESTRO PROCESO DE PRODUCCIÓN
+         ====================================================================== -->
+    <section id="proceso" class="prod-cycle-section">
+        <div class="prod-cycle-container">
+            <div class="section-header-flex reveal-up" style="margin-bottom: 0;">
+                <div>
+                    <span class="eyebrow">Trazabilidad y Cuidado Artesanal en Cada Nave</span>
+                    <h2>EL CICLO DE <span class="botanical-italic">Nuestro Cultivo</span></h2>
+                </div>
+                <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Quisiera%20consultar%20por%20plantas%20de%20producci%C3%B3n%20propia" target="_blank" class="btn-kinetic-outline">
+                    <i class="fab fa-whatsapp" style="color: var(--whatsapp);"></i>
+                    <span>Consultar al Productor</span>
+                </a>
+            </div>
+
+            <div class="prod-cycle-grid">
+                <!-- Etapa 1 -->
+                <article class="prod-step-card reveal-up">
+                    <div>
+                        <div class="prod-step-top">
+                            <span class="prod-step-num">Etapa 01</span>
+                            <div class="prod-step-icon"><i class="fas fa-scissors"></i></div>
+                        </div>
+                        <h3>Selección de Planta Madre &amp; Esqueje</h3>
+                        <p>Seleccionamos gajos y esquejes sanos de nuestras propias plantas madre. En las mesadas preparamos a diario bandejas de propagación vegetativa para asegurar pureza varietal y vigor.</p>
+                    </div>
+                    <span class="prod-step-tag"><i class="fas fa-check"></i> Mesadas de Propagación Propia</span>
+                </article>
+
+                <!-- Etapa 2 -->
+                <article class="prod-step-card reveal-up" style="transition-delay: 0.08s;">
+                    <div>
+                        <div class="prod-step-top">
+                            <span class="prod-step-num">Etapa 02</span>
+                            <div class="prod-step-icon"><i class="fas fa-droplet"></i></div>
+                        </div>
+                        <h3>Enraizamiento Bajo Cubierta</h3>
+                        <p>En nuestras naves de invernadero controlamos la humedad, la luz filtrada y la temperatura para que cada esqueje desarrolle un pan de raíces blanco, fibroso y abundante antes del repique.</p>
+                    </div>
+                    <span class="prod-step-tag"><i class="fas fa-check"></i> Microclima de Invernadero</span>
+                </article>
+
+                <!-- Etapa 3 -->
+                <article class="prod-step-card reveal-up" style="transition-delay: 0.16s;">
+                    <div>
+                        <div class="prod-step-top">
+                            <span class="prod-step-num">Etapa 03</span>
+                            <div class="prod-step-icon"><i class="fas fa-seedling"></i></div>
+                        </div>
+                        <h3>Recría en Envase &amp; Tutorado</h3>
+                        <p>Trasplantamos a macetas de cría con sustrato aireado y nutritivo. Realizamos podas de formación para lograr arbustos tupidos desde la base y tutoramos en caña las Santa Ritas y Jazmines.</p>
+                    </div>
+                    <span class="prod-step-tag"><i class="fas fa-check"></i> Follaje Tupido desde Abajo</span>
+                </article>
+
+                <!-- Etapa 4 -->
+                <article class="prod-step-card reveal-up" style="transition-delay: 0.24s;">
+                    <div>
+                        <div class="prod-step-top">
+                            <span class="prod-step-num">Etapa 04</span>
+                            <div class="prod-step-icon"><i class="fas fa-sun"></i></div>
+                        </div>
+                        <h3>Aclimatación Rústica Exterior</h3>
+                        <p>Antes de salir a la venta, las especies de parque y cerco pasan por nuestras canchas exteriores en Calle Nazarre, acostumbrándose al sol directo, el viento y el frío de la zona.</p>
+                    </div>
+                    <span class="prod-step-tag"><i class="fas fa-check"></i> Listas para Plantar sin Estrés</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================================
+         SECCIÓN EDITORIAL EN CASCADA (SOBRE NUESTRO PREDIO PRODUCTOR)
+         ====================================================================== -->
+    <section id="nosotros" class="cascading-section">
+        <div class="cascading-grid">
+            <!-- Imagen en cascada con bloque verde salvia desplazado y tarjeta flotante -->
+            <div class="cascading-visual-wrap reveal-left">
+                <div class="cascading-layer-bg"></div>
+                <div class="cascading-layer-main">
+                    <img src="images/nosotros.jpg" alt="Predio e Invernaderos Reales de Vivero Vía Verde entre Matheu y Zelaya">
+                </div>
+                <div class="cascading-layer-floating-card">
+                    <span class="floating-script">Vivero Vía Verde</span>
+                    <strong>PRODUCTORES EN ZONA NORTE</strong>
+                    <span>Nuestras naves de cultivo sobre Calle Nazarre, en el corredor verde entre Matheu y Zelaya.</span>
+                </div>
+            </div>
+
+            <!-- Texto editorial -->
+            <div class="cascading-text-wrap reveal-right">
+                <span class="section-eyebrow">Nuestro Predio &amp; Forma de Trabajar</span>
+                <h2>UN PREDIO PRODUCTOR DONDE CADA PLANTA CRECE <span class="botanical-italic">Sana desde la Raíz</span></h2>
+                <p><strong>Vivero Vía Verde</strong> abrió sus puertas al público hace poco más de un año sobre <strong>Calle Domingo Nazarre</strong>, en el punto exacto que une el polo florícola de <strong>Matheu (Escobar)</strong> con <strong>Zelaya (Pilar)</strong> y sus desarrollos residenciales como <strong>Pilar del Este y San Sebastián</strong>.</p>
+                <p>Quienes nos visitan por primera vez se sorprenden con la amplitud y prolijidad de nuestras <strong>5 naves de invernadero</strong>: acá siempre nos vas a encontrar trabajando en las mesadas, preparando esquejes, cuidando el sustrato y garantizando que cada planta que llevás a tu casa esté <strong>100% sana, fuerte y libre de plagas</strong>.</p>
+
+                <div class="cascading-pillars">
+                    <div class="pillar-box">
+                        <i class="fas fa-hand-holding-seedling"></i>
+                        <h4>Reproducción Propia</h4>
+                        <p>Desde el esqueje hasta el ejemplar terminado: controlamos todo el ciclo para asegurar sanidad y vigor.</p>
+                    </div>
+                    <div class="pillar-box">
+                        <i class="fas fa-comments"></i>
+                        <h4>Asesoramiento Real</h4>
+                        <p>Te indicamos con honestidad qué planta va mejor según el sol, las heladas y el suelo de tu lote o balcón.</p>
+                    </div>
+                </div>
+
+                <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;">
+                    <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Quisiera%20hacerles%20una%20consulta%20sobre%20su%20producci%C3%B3n" target="_blank" class="btn-kinetic-primary">
+                        <span>Hablar con el Vivero</span>
+                        <i class="fab fa-whatsapp" style="color: var(--whatsapp);"></i>
+                    </a>
+                    <a href="https://maps.app.goo.gl/csEz7xwcTnQJEfKN8" target="_blank" class="btn-kinetic-outline">
+                        <i class="fas fa-location-arrow" style="color: var(--primary-strong);"></i>
+                        <span>Cómo Llegar al Predio</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================================
+         CARRUSEL DE LÍNEAS DE PRODUCCIÓN (TIRA INTERACTIVA CON MOVIMIENTO)
+         ====================================================================== -->
+    <section class="brands-kinetic-section">
+        <div class="brands-title-center reveal-up">
+            <span class="sub">Cultivo Mayorista &amp; Minorista en Matheu y Zelaya</span>
+            <h2>LÍNEAS DE <span class="botanical-italic">Nuestra Producción</span></h2>
+        </div>
+
+        <div class="brands-track-wrapper">
+            <button class="strip-arrow prev" data-target="brandsCarousel" aria-label="Anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="brands-scroll-strip" id="brandsCarousel">
+                <div class="brand-glass-card"><img src="images/pilares/cercos-vivos.png" alt="Cercos Vivos - Privacidad y Lotes"></div>
+                <div class="brand-glass-card"><img src="images/pilares/produccion-propia.png" alt="Cultivo Propio - Esquejes y Cría Sana"></div>
+                <div class="brand-glass-card"><img src="images/pilares/trepadoras-flores.png" alt="Santa Ritas y Flor - Pérgolas y Galerías"></div>
+                <div class="brand-glass-card"><img src="images/pilares/gramineas-canteros.png" alt="Gramíneas y Dietes - Paisajismo Moderno"></div>
+                <div class="brand-glass-card"><img src="images/pilares/cactus-suculentas.png" alt="Cactus y Suculentas - Colección en Mesada"></div>
+                <div class="brand-glass-card"><img src="images/pilares/interior-tropicales.png" alt="Interior y Galería - Alocasias y Ficus"></div>
+                <div class="brand-glass-card"><img src="images/pilares/tierra-macetas.png" alt="Sustratos y Macetas - Tierra Fértil e Insumos"></div>
+                <div class="brand-glass-card"><img src="images/pilares/barrios-paisajismo.png" alt="Pilar del Este y Zona - Asesoramiento Integral"></div>
+                <!-- Set duplicado para recorrido continuo -->
+                <div class="brand-glass-card"><img src="images/pilares/cercos-vivos.png" alt="Cercos Vivos - Privacidad y Lotes"></div>
+                <div class="brand-glass-card"><img src="images/pilares/produccion-propia.png" alt="Cultivo Propio - Esquejes y Cría Sana"></div>
+                <div class="brand-glass-card"><img src="images/pilares/trepadoras-flores.png" alt="Santa Ritas y Flor - Pérgolas y Galerías"></div>
+                <div class="brand-glass-card"><img src="images/pilares/gramineas-canteros.png" alt="Gramíneas y Dietes - Paisajismo Moderno"></div>
+            </div>
+            <button class="strip-arrow next" data-target="brandsCarousel" aria-label="Siguiente">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- ======================================================================
+         CATÁLOGO VISUAL DE ESPECIES EN PRODUCCIÓN (FOTOS REALES DEL VIVERO)
+         ====================================================================== -->
+    <section id="especies" class="species-catalog-section">
+        <div class="section-header-flex reveal-up">
+            <div>
+                <span class="eyebrow">Fotografías 100% Reales Tomadas en Nuestras Naves de Cultivo</span>
+                <h2>ESPECIES EN <span class="botanical-italic">Producción Propia</span></h2>
+            </div>
+            <a href="https://maps.app.goo.gl/csEz7xwcTnQJEfKN8" target="_blank" class="btn-kinetic-outline">
+                <i class="fas fa-camera" style="color: var(--primary-strong);"></i>
+                <span>Ver +60 Fotos en Google Maps</span>
+            </a>
+        </div>
+
+        <!-- Filtros Interactivos por Categoría Botánica -->
+        <div class="filter-pills-wrap reveal-up" role="tablist" aria-label="Filtrar especies del vivero">
+            <button class="filter-pill-btn active" data-filter="all" type="button">
+                <i class="fas fa-border-all"></i> Todas las Líneas (9)
+            </button>
+            <button class="filter-pill-btn" data-filter="cercos" type="button">
+                <i class="fas fa-tree"></i> Cercos Vivos, Trepadoras &amp; Flor
+            </button>
+            <button class="filter-pill-btn" data-filter="canteros" type="button">
+                <i class="fas fa-feather-pointed"></i> Gramíneas, Canteros &amp; Sol Pleno
+            </button>
+            <button class="filter-pill-btn" data-filter="interior" type="button">
+                <i class="fas fa-leaf"></i> Interior, Galería &amp; Tropicales
+            </button>
+            <button class="filter-pill-btn" data-filter="suculentas" type="button">
+                <i class="fas fa-seedling"></i> Cactus, Suculentas &amp; Colgantes
+            </button>
+        </div>
+
+        <!-- Grilla de Especies con Fotos Reales de Vivero Vía Verde -->
+        <div class="species-grid" id="speciesCatalogGrid">
+
+            <!-- Especie 1: Santa Ritas (Bougainvilleas) -->
+            <article class="species-card reveal-up" data-category="cercos"
+                data-title="Santa Ritas Multicolores Tutoradas"
+                data-botanical="Bougainvillea spectabilis / glabra"
+                data-img="images/especies/santa-ritas-floracion.jpg"
+                data-sun="Sol Pleno (6+ hs)"
+                data-water="Riego Moderado"
+                data-use="Pérgolas, Muros y Cercos Vivos"
+                data-desc="Producidas en nuestras naves y tutoradas en caña, listas para llevar en plena floración (fucsia, violeta, naranja, rojo carmín y blanco). Muy resistentes y de rápido crecimiento para cubrir pérgolas, alambrados y cercos en barrios cerrados.">
+                <div>
+                    <div class="species-img-box">
+                        <span class="species-cat-tag">Floración &amp; Cercos</span>
+                        <img src="images/especies/santa-ritas-floracion.jpg" alt="Santa Ritas en Floración en Vivero Vía Verde">
+                        <button class="quickview-trigger" type="button"><i class="fas fa-magnifying-glass-plus"></i> Ficha Botánica</button>
+                    </div>
+                    <div class="species-content">
+                        <span class="species-botanical-name">Bougainvillea spectabilis</span>
+                        <h3>Santa Ritas en Flor (Todos los Colores)</h3>
+                        <p>Ejemplares tutorados en fucsia, violeta, naranja, rojo y blanco. Explosión de color para pérgolas, muros y cercos perimetrales.</p>
+                        <div class="care-badges">
+                            <span class="care-badge"><i class="fas fa-sun"></i> Sol Pleno</span>
+                            <span class="care-badge"><i class="fas fa-droplet"></i> Riego Bajo/Medio</span>
+                            <span class="care-badge"><i class="fas fa-ruler-vertical"></i> Tutoradas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="species-footer">
+                    <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Consulto%20disponibilidad%20y%20precio%20de%20Santa%20Ritas%20tutoradas" target="_blank" class="btn-combo-wa">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Consultar Precio y Colores</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Especie 2: Gramíneas, Dietes y Arbustos de Parque -->
+            <article class="species-card reveal-up" data-category="canteros"
+                data-title="Gramíneas Paisajísticas, Dietes y Cortaderas"
+                data-botanical="Pennisetum / Dietes bicolor / Cortaderia"
+                data-img="images/especies/invernaderos-gramineas.jpg"
+                data-sun="Sol Pleno / Media Sombra"
+                data-water="Riego Bajo (Rústicas)"
+                data-use="Canteros Modernos, Entradas y Borduras"
+                data-desc="Criadas a cielo abierto y en túneles de aclimatación en nuestro predio de Nazarre. Ideales para diseñar canteros modernos de bajo mantenimiento en lotes de Pilar del Este y San Sebastián.">
+                <div>
+                    <div class="species-img-box">
+                        <span class="species-cat-tag">Paisajismo &amp; Parque</span>
+                        <img src="images/especies/invernaderos-gramineas.jpg" alt="Gramíneas Paisajísticas y Arbustos en el Predio de Vivero Vía Verde">
+                        <button class="quickview-trigger" type="button"><i class="fas fa-magnifying-glass-plus"></i> Ficha Botánica</button>
+                    </div>
+                    <div class="species-content">
+                        <span class="species-botanical-name">Pennisetum · Dietes · Arbustos</span>
+                        <h3>Gramíneas Ornamentales &amp; Parque</h3>
+                        <p>Matas densas y vigorosas criadas al aire libre, listas para plantar en canteros, frentes de casas, bordes de pileta y jardines.</p>
+                        <div class="care-badges">
+                            <span class="care-badge"><i class="fas fa-sun"></i> Todo Terreno</span>
+                            <span class="care-badge"><i class="fas fa-snowflake"></i> Resiste Heladas</span>
+                            <span class="care-badge"><i class="fas fa-layer-group"></i> Por Mayor y Menor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="species-footer">
+                    <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Consulto%20por%20Gram%C3%ADneas%20y%20arbustos%20para%20parquizaci%C3%B3n" target="_blank" class="btn-combo-wa">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Consultar para Parquización</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Especie 3: Ficus Benjamina Variegado & Arbustos de Cerco -->
+            <article class="species-card reveal-up" data-category="cercos"
+                data-title="Ficus Variegados y Arbustos de Cerco Vivo"
+                data-botanical="Ficus benjamina 'Variegata' & Especies Perennes"
+                data-img="images/especies/ficus-arbustos-cerco.jpg"
+                data-sun="Sol Suave / Media Sombra Luminosa"
+                data-water="Riego Moderado"
+                data-use="Cercos Vivos, Galerías y Macetones"
+                data-desc="Ejemplares de follaje disciplinado y luminoso producidos en maceta grande. Excelentes para generar pantallas visuales elegantes, cercos tupidos o lucir en macetones de entrada.">
+                <div>
+                    <div class="species-img-box">
+                        <span class="species-cat-tag">Cercos &amp; Follaje</span>
+                        <img src="images/especies/ficus-arbustos-cerco.jpg" alt="Ficus Variegados y Arbustos de Cerco Vivo en Vivero Vía Verde">
+                        <button class="quickview-trigger" type="button"><i class="fas fa-magnifying-glass-plus"></i> Ficha Botánica</button>
+                    </div>
+                    <div class="species-content">
+                        <span class="species-botanical-name">Ficus benjamina variegata &amp; Perennes</span>
+                        <h3>Ficus Variegados &amp; Arbustos de Cerco</h3>
+                        <p>Follaje perenne luminoso en diferentes envases y alturas. Ideales para cierres perimetrales, patios internos y galerías.</p>
+                        <div class="care-badges">
+                            <span class="care-badge"><i class="fas fa-cloud-sun"></i> Sol / Media Sombra</span>
+                            <span class="care-badge"><i class="fas fa-leaf"></i> Hoja Perenne</span>
+                            <span class="care-badge"><i class="fas fa-arrows-up-down"></i> Varios Tamaños</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="species-footer">
+                    <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Consulto%20por%20Ficus%20Variegados%20y%20arbustos%20para%20cerco" target="_blank" class="btn-combo-wa">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Consultar Tamaños y Stock</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Especie 4: Jazmines Tutorados en Flor -->
+            <article class="species-card reveal-up" data-category="cercos"
+                data-title="Jazmines Perfumados Tutorados (País / Azores)"
+                data-botanical="Jasminum polyanthum / Jasminum azoricum"
+                data-img="images/especies/jazmines-trepadoras.jpg"
+                data-sun="Sol Pleno / Media Sombra"
+                data-water="Riego Regular en Primavera/Verano"
+                data-use="Cercos Perfumados, Alambrados y Columnas"
+                data-desc="Enredaderas perfumadas con guías vigorosas en caña, ideales para cubrir alambrados perimetrales en barrios cerrados, pérgolas de galería y arcos de jardín con floración blanca y fragancia inconfundible.">
+                <div>
+                    <div class="species-img-box">
+                        <span class="species-cat-tag">Trepadoras Perfumadas</span>
+                        <img src="images/especies/jazmines-trepadoras.jpg" alt="Jazmines en Flor Tutorados en Vivero Vía Verde">
+                        <button class="quickview-trigger" type="button"><i class="fas fa-magnifying-glass-plus"></i> Ficha Botánica</button>
+                    </div>
+                    <div class="species-content">
+                        <span class="species-botanical-name">Jasminum · Enredaderas en Flor</span>
+                        <h3>Jazmines Perfumados para Cercos</h3>
+                        <p>Ejemplares guiados en caña listos para cubrir alambrados, cercos divisorios y columnas de galería con flores blancas perfumadas.</p>
+                        <div class="care-badges">
+                            <span class="care-badge"><i class="fas fa-wind"></i> Fragancia Intensa</span>
+                            <span class="care-badge"><i class="fas fa-sun"></i> Sol / Semisombra</span>
+                            <span class="care-badge"><i class="fas fa-border-style"></i> Cubre Cercos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="species-footer">
+                    <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Consulto%20por%20Jazmines%20y%20enredaderas%20para%20cerco" target="_blank" class="btn-combo-wa">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Consultar por Jazmines</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Especie 5: Dietes, Formios y Herbáceas Perennes -->
+            <article class="species-card reveal-up" data-category="canteros"
+                data-title="Dietes, Lirios y Formios para Canteros"
+                data-botanical="Dietes vegeta / Phormium tenax"
+                data-img="images/especies/dietes-formios-canteros.jpg"
+                data-sun="Sol Pleno / Media Sombra"
+                data-water="Muy Bajo Mantenimiento"
+                data-use="Alineaciones, Canteros y Bordes de Piscina"
+                data-desc="Una de las líneas más nobles y resistentes de nuestra producción. Su porte vertical limpio no ensucia el agua de las piletas, soporta pleno sol de verano y heladas de invierno sin perder su verde.">
+                <div>
+                    <div class="species-img-box">
+                        <span class="species-cat-tag">Canteros &amp; Piletas</span>
+                        <img src="images/especies/dietes-formios-canteros.jpg" alt="Producción de Dietes y Formios en Vivero Vía Verde">
+                        <button class="quickview-trigger" type="button"><i class="fas fa-magnifying-glass-plus"></i> Ficha Botánica</button>
+                    </div>
+                    <div class="species-content">
+                        <span class="species-botanical-name">Dietes · Lirios · Formios</span>
+                        <h3>Herbáceas Perennes &amp; Bordes de Pileta</h3>
+                        <p>Producción en serie para lograr canteros uniformes y prolijos. No ensucian piletas y requieren mínimo mantenimiento anual.</p>
+                        <div class="care-badges">
+                            <span class="care-badge"><i class="fas fa-water-ladder"></i> Ideal Piletas</span>
+                            <span class="care-badge"><i class="fas fa-shield"></i> Ultra Rústica</span>
+                            <span class="care-badge"><i class="fas fa-boxes-stacked"></i> Stock en Cantidad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="species-footer">
+                    <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Consulto%20por%20Dietes%2C%20Formios%20y%20plantas%20para%20canteros" target="_blank" class="btn-combo-wa">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Consultar Precio por Cantidad</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Especie 6: Alocasias & Tropicales de Galería / Interior -->
+            <article class="species-card reveal-up" data-category="interior"
+                data-title="Alocasias (Oreja de Elefante) y Tropicales"
+                data-botanical="Alocasia macrorrhizos / Colocasia"
+                data-img="images/especies/alocasia-tropicales.jpg"
+                data-sun="Luz Indirecta / Galería Techada"
+                data-water="Riego Frecuente / Sustrato Húmedo"
+                data-use="Interiores Luminosos, Galerías y Patios"
+                data-desc="Ejemplares tropicales de hojas esculturales gigantes, criados bajo cubierta con humedad controlada. Perfectos para dar una impronta selvática y moderna a galerías, livings y entradas techadas.">
+                <div>
+                    <div class="species-img-box">
+                        <span class="species-cat-tag">Interior &amp; Galería</span>
+                        <img src="images/especies/alocasia-tropicales.jpg" alt="Alocasia Oreja de Elefante en Vivero Vía Verde">
+                        <button class="quickview-trigger" type="button"><i class="fas fa-magnifying-glass-plus"></i> Ficha Botánica</button>
+                    </div>
+                    <div class="species-content">
+                        <span class="species-botanical-name">Alocasia · Follaje Tropical</span>
+                        <h3>Alocasias &amp; Tropicales de Galería</h3>
+                        <p>Hojas monumentales de verde intenso, sanas y sin manchas. El toque botánico protagonista para livings y galerías modernas.</p>
+                        <div class="care-badges">
+                            <span class="care-badge"><i class="fas fa-couch"></i> Interior / Galería</span>
+                            <span class="care-badge"><i class="fas fa-droplet"></i> Humedad Media</span>
+                            <span class="care-badge"><i class="fas fa-star"></i> Sanidad 100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="species-footer">
+                    <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Consulto%20por%20Alocasias%20y%20plantas%20tropicales%20de%20interior" target="_blank" class="btn-combo-wa">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Consultar Disponibilidad</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Especie 7: Euphorbias Candelabro & Sansevierias -->
+            <article class="species-card reveal-up" data-category="interior"
+                data-title="Euphorbias Candelabro & Sansevierias"
+                data-botanical="Euphorbia trigona / Sansevieria trifasciata"
+                data-img="images/especies/euphorbias-sansevierias.jpg"
+                data-sun="Muy Luminoso o Sol Directo"
+                data-water="Riego Muy Espaciado"
+                data-use="Diseño Moderno, Macetas Altas e Interior"
+                data-desc="Las favoritas de la decoración contemporánea por su porte arquitectónico vertical y su increíble resistencia. Disponibles en múltiples alturas, listas para trasplantar a macetas rotomoldeadas, fibrocemento o barro.">
+                <div>
+                    <div class="species-img-box">
+                        <span class="species-cat-tag">Porte Arquitectónico</span>
+                        <img src="images/especies/euphorbias-sansevierias.jpg" alt="Euphorbias y Sansevierias en Vivero Vía Verde">
+                        <button class="quickview-trigger" type="button"><i class="fas fa-magnifying-glass-plus"></i> Ficha Botánica</button>
+                    </div>
+                    <div class="species-content">
+                        <span class="species-botanical-name">Euphorbia trigona · Sansevieria</span>
+                        <h3>Euphorbias &amp; Lengua de Suegra</h3>
+                        <p>Ejemplares columnares y Sansevierias disciplinadas de mínimo cuidado, ideales para interiores modernos y galerías soleadas.</p>
+                        <div class="care-badges">
+                            <span class="care-badge"><i class="fas fa-bolt"></i> Ultra Resistente</span>
+                            <span class="care-badge"><i class="fas fa-droplet-slash"></i> Riego Mínimo</span>
+                            <span class="care-badge"><i class="fas fa-building"></i> Deco Moderna</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="species-footer">
+                    <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Consulto%20por%20Euphorbias%20y%20Sansevierias" target="_blank" class="btn-combo-wa">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Consultar Alturas y Precios</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Especie 8: Mesadas de Suculentas & Esquejes Propios -->
+            <article class="species-card reveal-up" data-category="suculentas"
+                data-title="Suculentas de Colección (Echeverias, Sedum y Crásulas)"
+                data-botanical="Echeveria elegans / Graptopetalum / Crassula"
+                data-img="images/especies/suculentas-esquejes.jpg"
+                data-sun="Sol Suave de Mañana / Luz Plena"
+                data-water="Riego Espaciado"
+                data-use="Souvenirs, Terrarios, Rocallas y Colección"
+                data-desc="Orgullo de Vivero Vía Verde: reproducimos miles de rosetas a partir de esquejes propios en nuestras mesadas. Colores pastel, pruina intacta y raíces sanas, tanto por unidad como por bandeja mayorista.">
+                <div>
+                    <div class="species-img-box">
+                        <span class="species-cat-tag">Reproducción por Esqueje</span>
+                        <img src="images/especies/suculentas-esquejes.jpg" alt="Mesadas de Suculentas y Echeverias en Vivero Vía Verde">
+                        <button class="quickview-trigger" type="button"><i class="fas fa-magnifying-glass-plus"></i> Ficha Botánica</button>
+                    </div>
+                    <div class="species-content">
+                        <span class="species-botanical-name">Echeveria · Graptopetalum · Sedum</span>
+                        <h3>Suculentas &amp; Echeverias de Cultivo</h3>
+                        <p>Mesadas completas de suculentas reproducidas en el vivero. Venta minorista, souvenirs para eventos y bandejas por mayor.</p>
+                        <div class="care-badges">
+                            <span class="care-badge"><i class="fas fa-seedling"></i> Esqueje Propio</span>
+                            <span class="care-badge"><i class="fas fa-palette"></i> Tonos Pastel</span>
+                            <span class="care-badge"><i class="fas fa-gift"></i> Unidad o Bandeja</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="species-footer">
+                    <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Consulto%20por%20Suculentas%20y%20Echeverias" target="_blank" class="btn-combo-wa">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Consultar Unidad o Bandeja</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Especie 9: Plantas Colgantes, Aloes & Xerófitas -->
+            <article class="species-card reveal-up" data-category="suculentas"
+                data-title="Colgantes (Huernias, Rhipsalis) y Aloes de Sol"
+                data-botanical="Huernia / Stapelia / Aloe maculata & vera"
+                data-img="images/especies/colgantes-huernias.jpg"
+                data-sun="Media Sombra / Sol Filtrado"
+                data-water="Riego Moderado a Bajo"
+                data-use="Galerías, Balcones y Jardines Secos"
+                data-desc="Amplia variedad de macetas colgantes tupidas (Huernias, Stapelias, Cola de Mono, Lazos de Amor, Rhipsalis) y Aloes esculturales listos para decorar pérgolas y jardines xerófilos.">
+                <div>
+                    <div class="species-img-box">
+                        <span class="species-cat-tag">Colgantes &amp; Aloes</span>
+                        <img src="images/especies/colgantes-huernias.jpg" alt="Macetas Colgantes en Invernadero de Vivero Vía Verde">
+                        <button class="quickview-trigger" type="button"><i class="fas fa-magnifying-glass-plus"></i> Ficha Botánica</button>
+                    </div>
+                    <div class="species-content">
+                        <span class="species-botanical-name">Huernia · Rhipsalis · Aloe</span>
+                        <h3>Macetas Colgantes &amp; Xerófitas</h3>
+                        <p>Líneas colgantes bien enraizadas y tupidas directas de las cumbreras de nuestros invernaderos para vestir galerías.</p>
+                        <div class="care-badges">
+                            <span class="care-badge"><i class="fas fa-cloud-sun"></i> Media Sombra</span>
+                            <span class="care-badge"><i class="fas fa-circle-check"></i> Maceta Colgante</span>
+                            <span class="care-badge"><i class="fas fa-heart"></i> Fácil Cuidado</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="species-footer">
+                    <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Consulto%20por%20Plantas%20Colgantes%20y%20Aloes" target="_blank" class="btn-combo-wa">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Consultar Variedades</span>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ======================================================================
+         FRANJA PARALLAX MAYORISTA / PAISAJISTAS / BARRIOS CERRADOS
+         ====================================================================== -->
+    <section class="parallax-cta-band">
+        <div class="parallax-cta-inner reveal-scale">
+            <span class="hero-kicker" style="margin-bottom: 1rem;">
+                <i class="fas fa-leaf"></i> Atención a Particulares, Barrios Privados, Paisajistas y Viveros
+            </span>
+            <h2>VENÍ A RECORRER NUESTROS INVERNADEROS<br><span class="botanical-italic">o Cotizá tu Lista Directo de Productor.</span></h2>
+            <p>Te esperamos en Calle Domingo Nazarre (entre Matheu y Zelaya) de lunes a sábado, o envianos tu listado de plantas por WhatsApp para prepararte el presupuesto en el día.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+                <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Quiero%20enviarles%20una%20lista%20de%20plantas%20para%20cotizar" target="_blank" class="btn-kinetic-primary">
+                    <i class="fab fa-whatsapp" style="font-size: 1.2rem; color: var(--whatsapp);"></i>
+                    <span>Cotizar por WhatsApp (0348 431-9646)</span>
+                </a>
+                <a href="index.html#cotizador" class="btn-kinetic-outline">
+                    <i class="fas fa-calculator" style="color: var(--primary-strong);"></i>
+                    <span>Ir a la Calculadora de Cercos Vivos</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================================
+         FOOTER EDITORIAL BOTÁNICO
+         ====================================================================== -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <img src="images/logo-real.png?v=2" alt="Vivero Vía Verde Logo" style="height: 52px; margin-bottom: 1rem;">
+                <p style="color: var(--text-body); font-size: 0.92rem; margin-bottom: 1rem;">
+                    Vivero productor de plantas ornamentales, cercos vivos, gramíneas, floración de estación, especies de interior y suculentas. Ubicados entre Matheu y Zelaya, acompañando el crecimiento verde de Pilar del Este, San Sebastián y todo Escobar y Pilar.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navegación</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#inicio">Inicio &amp; Predio</a></li>
+                    <li><a href="index.html#servicios">Servicios y Especialidades</a></li>
+                    <li><a href="produccion.html">Nuestra Producción &amp; Especies</a></li>
+                    <li><a href="index.html#cotizador">Calculadora de Cerco Vivo</a></li>
+                    <li><a href="index.html#opiniones">Reseñas en Google (5.0★)</a></li>
+                    <li><a href="index.html#contacto">Ubicación y Horarios</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Líneas de Cultivo</h4>
+                <ul class="footer-links">
+                    <li><a href="#especies">Arbustos para Cercos Vivos</a></li>
+                    <li><a href="#especies">Santa Ritas &amp; Jazmines Tutorados</a></li>
+                    <li><a href="#especies">Gramíneas, Dietes &amp; Formios</a></li>
+                    <li><a href="#especies">Alocasias &amp; Plantas de Interior</a></li>
+                    <li><a href="#especies">Suculentas, Cactus &amp; Colgantes</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Zonas y Consultas Rápidas</h4>
+                <div class="footer-tags">
+                    <a href="index.html#cotizador" class="footer-tag">Cercos Pilar del Este</a>
+                    <a href="index.html#cotizador" class="footer-tag">Barrio San Sebastián</a>
+                    <a href="#proceso" class="footer-tag">Ciclo de Cultivo</a>
+                    <a href="https://wa.me/5493484319646?text=Hola!%20Consulto%20por%20ventas%20mayoristas%20o%20paisajismo" target="_blank" class="footer-tag">Ventas por Mayor</a>
+                    <a href="https://wa.me/5493484319646?text=Hola!%20Consulto%20por%20tierra%20f%C3%A9rtil%20y%20macetas" target="_blank" class="footer-tag">Tierra &amp; Sustratos</a>
+                    <a href="https://maps.app.goo.gl/csEz7xwcTnQJEfKN8" target="_blank" class="footer-tag">Google Maps Oficial</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Vivero Vía Verde — Calle Domingo Nazarre (Corredor Matheu – Zelaya), Belén de Escobar / Pilar. Todos los derechos reservados.</p>
+            <p>Diseñado por <strong style="color: var(--primary-strong);">Poldv</strong> · Edición Botánica &amp; Tierra Viva</p>
+        </div>
+    </footer>
+
+    <!-- ======================================================================
+         MODAL DE FICHA BOTÁNICA / VISTA RÁPIDA DE ESPECIE
+         ====================================================================== -->
+    <div class="botanical-modal" id="speciesQuickModal" aria-hidden="true">
+        <div class="botanical-modal-box">
+            <button class="botanical-modal-close" id="closeQuickModalBtn" aria-label="Cerrar ficha">&times;</button>
+            <div class="botanical-modal-img">
+                <img src="images/especies/santa-ritas-floracion.jpg" alt="Vista ampliada de especie" id="modalSpeciesImg">
+            </div>
+            <div class="botanical-modal-info">
+                <div>
+                    <span class="terra-badge-inline" id="modalSpeciesBotanical" style="margin-bottom: 0.6rem;">Bougainvillea spectabilis</span>
+                    <h3 id="modalSpeciesTitle" style="font-size: 1.9rem; line-height: 1.12; margin-bottom: 0.75rem;">Santa Ritas Multicolores</h3>
+                    <p id="modalSpeciesDesc" style="font-size: 0.95rem; color: var(--text-body); margin-bottom: 1.3rem;"></p>
+
+                    <div style="display: grid; grid-template-columns: 1fr; gap: 0.6rem; margin-bottom: 1.5rem; background: var(--bg-sage); padding: 1rem 1.15rem; border-radius: 14px; border: 1px solid var(--border-botanical);">
+                        <div style="font-size: 0.86rem;"><strong style="color: var(--primary-deep);"><i class="fas fa-sun" style="color: var(--terra); width: 20px;"></i> Exposición:</strong> <span id="modalSpeciesSun"></span></div>
+                        <div style="font-size: 0.86rem;"><strong style="color: var(--primary-deep);"><i class="fas fa-droplet" style="color: var(--primary-strong); width: 20px;"></i> Riego:</strong> <span id="modalSpeciesWater"></span></div>
+                        <div style="font-size: 0.86rem;"><strong style="color: var(--primary-deep);"><i class="fas fa-compass-drafting" style="color: var(--primary-strong); width: 20px;"></i> Uso Ideal:</strong> <span id="modalSpeciesUse"></span></div>
+                    </div>
+                </div>
+                <a href="https://wa.me/5493484319646" target="_blank" id="modalSpeciesWaBtn" class="btn-kinetic-primary" style="width: 100%; justify-content: center;">
+                    <i class="fab fa-whatsapp" style="font-size: 1.15rem; color: var(--whatsapp);"></i>
+                    <span>Consultar Stock y Precio por WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================================================
+         FLOATING WHATSAPP MULTI-OPCIONES
+         ====================================================================== -->
+    <div class="wa-floating-widget">
+        <div class="wa-popup-menu" id="waPopupMenu">
+            <div class="wa-popup-header">
+                <strong><i class="fab fa-whatsapp"></i> ¿En qué te podemos asesorar?</strong>
+                <button class="wa-popup-close" id="waPopupClose" aria-label="Cerrar menú">&times;</button>
+            </div>
+            <div class="wa-popup-list">
+                <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Quisiera%20cotizar%20plantas%20para%20un%20Cerco%20Vivo%20(Zona%20Pilar%20del%20Este%20/%20San%20Sebasti%C3%A1n%20/%20Matheu)" target="_blank" class="wa-popup-item">
+                    <span>🌿 Cotizar Cerco Vivo (Pilar del Este / Zona)</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Quisiera%20consultar%20por%20Gram%C3%ADneas%2C%20Dietes%2C%20Santa%20Ritas%20o%20plantas%20de%20exterior" target="_blank" class="wa-popup-item">
+                    <span>🌸 Plantas de Exterior, Flores &amp; Gramíneas</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Quisiera%20consultar%20por%20Plantas%20de%20Interior%2C%20Suculentas%2C%20Macetas%20o%20Tierra" target="_blank" class="wa-popup-item">
+                    <span>🪴 Interior, Suculentas, Tierra &amp; Macetas</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <a href="https://wa.me/5493484319646?text=Hola%20Vivero%20V%C3%ADa%20Verde!%20Soy%20paisajista%20/%20busco%20compra%20por%20cantidad%20y%20quer%C3%ADa%20consultar%20lista" target="_blank" class="wa-popup-item">
+                    <span>🚜 Ventas por Mayor / Paisajistas / Envíos</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <button class="wa-Launcher-btn" id="waLauncherBtn" type="button" aria-label="Chatear por WhatsApp">
+            <span class="wa-Launcher-label">Consultar al Vivero</span>
+            <i class="fab fa-whatsapp"></i>
+            <span class="wa-notif-badge" id="waNotifBadge">1</span>
+        </button>
+    </div>
+
+    <!-- Script Principal -->
+    <script src="js/main.js?v=2"></script>
+</body>
+</html>
