@@ -913,7 +913,7 @@ img {
    ========================================================================== */
 .editorial-blocks-row {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     width: 100%;
     position: relative;
     z-index: 5;
@@ -922,19 +922,25 @@ img {
 }
 
 .ed-block {
-    padding: 3.6rem 3.4rem;
+    padding: 3.2rem max(5%, calc((100% - 1280px) / 2));
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    gap: 2.5rem;
+    flex-wrap: wrap;
     position: relative;
     overflow: hidden;
     transition: all 0.4s ease;
 }
 
+.ed-block > div:first-child {
+    max-width: 720px;
+}
+
 .ed-block-moss {
     background: var(--bg-moss);
     color: var(--text-dark);
-    border-right: 1px solid var(--border-botanical);
 }
 
 .ed-block-linen {
