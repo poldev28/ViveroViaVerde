@@ -467,6 +467,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const isOpen = navWaPopup.classList.toggle('open');
             navWaBtn.classList.toggle('active', isOpen);
             navWaBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            if (isOpen && navLinks && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+                if (menuToggle) {
+                    const icon = menuToggle.querySelector('i');
+                    if (icon) icon.className = 'fas fa-bars';
+                }
+            }
         });
 
         if (navWaClose) {

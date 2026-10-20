@@ -2892,6 +2892,30 @@ img {
         font-size: 1.3rem !important;
     }
 
+    .nav-wa-popup {
+        position: fixed;
+        top: 68px;
+        left: 12px;
+        right: 12px;
+        width: auto;
+        max-width: 380px;
+        margin: 0 auto;
+        border-radius: 16px;
+    }
+
+    .nav-wa-popup .wa-popup-header {
+        padding: 0.8rem 1rem;
+    }
+
+    .nav-wa-popup .wa-popup-header strong {
+        font-size: 0.78rem;
+    }
+
+    .nav-wa-popup .wa-popup-item {
+        padding: 0.78rem 1rem;
+        font-size: 0.82rem;
+    }
+
     .vivero-naves-list {
         grid-template-columns: 1fr;
         gap: 0.48rem;
