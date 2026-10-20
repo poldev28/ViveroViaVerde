@@ -137,17 +137,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (footerSubEl) footerSubEl.textContent = data.footerSub;
 
         restartProgressBar();
-
-        if (captionTitleEl && captionDescEl) {
-            captionTitleEl.style.opacity = '0';
-            captionDescEl.style.opacity = '0';
-            setTimeout(() => {
-                captionTitleEl.innerHTML = data.title;
-                captionDescEl.textContent = data.desc;
-                captionTitleEl.style.opacity = '1';
-                captionDescEl.style.opacity = '1';
-            }, 160);
-        }
     }
 
     function startNavesAutoPlay() {
