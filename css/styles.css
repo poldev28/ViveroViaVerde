@@ -2340,52 +2340,27 @@ img {
 }
 
 /* ==========================================================================
-   FOOTER EDITORIAL BOTÁNICO
+   FOOTER EDITORIAL BOTÁNICO COMPACTO
    ========================================================================== */
 .site-footer {
     background: var(--bg-moss);
     border-top: 2px solid var(--primary);
-    padding: 4rem 5% 2rem;
+    padding: 2.2rem 5% 1.8rem;
 }
 
-.footer-grid {
+.footer-compact-top {
     max-width: 1280px;
-    margin: 0 auto 3rem;
-    display: grid;
-    grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
-    gap: 2.5rem;
-}
-
-.footer-col h4 {
-    color: var(--primary-deep);
-    font-size: 1.22rem;
-    margin-bottom: 1.1rem;
-    letter-spacing: 0.6px;
-}
-
-.footer-links {
-    list-style: none;
+    margin: 0 auto 1.4rem;
     display: flex;
-    flex-direction: column;
-    gap: 0.65rem;
-}
-
-.footer-links a {
-    color: var(--text-body);
-    font-size: 0.92rem;
-    transition: color 0.25s, transform 0.25s;
-    display: inline-block;
-}
-
-.footer-links a:hover {
-    color: var(--primary-strong);
-    transform: translateX(4px);
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    justify-content: center;
+    gap: 0.55rem;
 }
 
 .footer-tag {
