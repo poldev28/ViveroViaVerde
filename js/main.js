@@ -455,30 +455,42 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     /* ----------------------------------------------------------------------
-       8. WIDGET FLOTANTE DE WHATSAPP CON MENÚ RÁPIDO
+       8. MENÚ DESPLEGABLE DE WHATSAPP EN EL ENCABEZADO SUPERIOR FIJO
        ---------------------------------------------------------------------- */
-    const waLauncher = document.getElementById('waLauncherBtn');
-    const waPopup = document.getElementById('waPopupMenu');
-    const waClose = document.getElementById('waPopupClose');
-    const waNotif = document.getElementById('waNotifBadge');
+    const navWaBtn = document.getElementById('navWaBtn');
+    const navWaPopup = document.getElementById('navWaPopup');
+    const navWaClose = document.getElementById('navWaClose');
 
-    if (waLauncher && waPopup) {
-        waLauncher.addEventListener('click', (e) => {
+    if (navWaBtn && navWaPopup) {
+        navWaBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            waPopup.classList.toggle('open');
-            if (waNotif) waNotif.style.display = 'none';
+            const isOpen = navWaPopup.classList.toggle('open');
+            navWaBtn.classList.toggle('active', isOpen);
+            navWaBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
         });
 
-        if (waClose) {
-            waClose.addEventListener('click', (e) => {
+        if (navWaClose) {
+            navWaClose.addEventListener('click', (e) => {
                 e.stopPropagation();
-                waPopup.classList.remove('open');
+                navWaPopup.classList.remove('open');
+                navWaBtn.classList.remove('active');
+                navWaBtn.setAttribute('aria-expanded', 'false');
             });
         }
 
         document.addEventListener('click', (e) => {
-            if (!waPopup.contains(e.target) && !waLauncher.contains(e.target)) {
-                waPopup.classList.remove('open');
+            if (!navWaPopup.contains(e.target) && !navWaBtn.contains(e.target)) {
+                navWaPopup.classList.remove('open');
+                navWaBtn.classList.remove('active');
+                navWaBtn.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && navWaPopup.classList.contains('open')) {
+                navWaPopup.classList.remove('open');
+                navWaBtn.classList.remove('active');
+                navWaBtn.setAttribute('aria-expanded', 'false');
             }
         });
     }
