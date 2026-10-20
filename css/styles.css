@@ -2880,6 +2880,43 @@ img {
         border-radius: 22px 22px 16px 16px;
     }
 
+    .vivero-viewport-topbar {
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        gap: 0.45rem;
+    }
+
+    .vivero-live-pill {
+        padding: 0.34rem 0.65rem;
+        font-size: 0.68rem;
+        gap: 0.4rem;
+        min-width: 0;
+        max-width: calc(100% - 108px);
+    }
+
+    .vivero-live-pill strong {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .btn-nav-cta {
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        border-radius: 50%;
+        justify-content: center;
+    }
+
+    .btn-nav-cta span {
+        display: none;
+    }
+
+    .btn-nav-cta i.fa-whatsapp {
+        font-size: 1.3rem !important;
+    }
+
     .vivero-naves-list {
         grid-template-columns: 1fr;
         gap: 0.48rem;
